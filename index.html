@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Purwanta CV</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<!-- header -->
+<div class="header">
+    <div class="header-logo">
+        Michael Purwanta
+    </div>
+    <button class="button-menu">menu</button>
+    <div class="menu">
+        <div class="header-list">
+            <a href="#bio" class="menu-list">About</a>
+            <a href="#skill" class="menu-list">Skills</a>
+            <a href="#edu" class="menu-list"> Education</a>
+            <a href="#exp" class="menu-list">Experience</a>
+            <a href="#contact" class="menu-list">Contact</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- pictures -->
+<div class="top-container">
+    <img src="picture/cloud.png" alt="cloud" class="top-cloud cloud">
+    <img src="picture/DSC_0035_-modified.png" alt="michael purwanta profile" width="200" height="200">
+    <h1>I'm Michael</h1>
+    <h2 class="web">a web developer</h2>
+    <img src="picture/cloud.png" alt="cloud" class="bottom-cloud cloud">
+    <img src="picture/mountain.png" alt="mountain" class="mountain">
+</div>
+<div class="middle-container">
+    <div class="profile">
+        <h2>Hello.</h2>
+        <p class="intro">I'm pursuing carrier and learning about Web Development
+        </p>
+    </div>
+    <hr>
+</div>
+<!-- bio and info -->
+<div class="education" id="edu">
+    <div class="edu"><b> About Me
+        </b>
+
+    </div>
+    <div class="card-body">
+        Hi, my name is Michael Purwanta I am intrested about <b>Web Development</b>. I'm also a quick
+        learner
+        and a team player that get the job done.
+        <p>On a good side I'm always love to learn about new things so i can increase my skill and very
+            tech savy about PC</p>
+    </div>
+    <div class="edu"><b> basic info
+        </b>
+
+
+    </div>
+    <div class="card-body">
+        Email : Michael_purwanta@yahoo.com
+        <br>
+        Phone number: +6287789284881
+    </div>
+</div>
+<hr>
+
+
+<!-- skill -->
+
+<h3 id="skill">Skills</h3>
+
+<div class="wrap">
+
+    <div class="holder">
+        <div class="bar " data-percent="80%"><span class="label">HTML</span></div>
+        <div class="bar" data-percent="75%"><span class="label second">CSS</span></div>
+        <div class="bar" data-percent="50%"><span class="label">JavaScript</span></div>
+    </div>
+
+
+    <hr>
+    <!-- education -->
+
+    <h3>Education</h3>
+
+    <div class="education" id="edu">
+        <div class="edu"><b> Bachelor of Psychology from Tarumanagara University
+            </b>
+            <p>2021</p>
+        </div>
+        <div class="card-body">
+            learning some Psychology stuff to be charismatic, more persuative and to be a good listener but im also
+            active
+            in campus organization and become the core member for organization and competition as well
+        </div>
+        <div class="edu"><b> Diploma of Hospitality Management from Guilin Tourism Uni
+            </b>
+            <p>2016</p>
+        </div>
+        <div class="card-body">
+            Learning about how to manage hotel, how the hotel works, Tourism, Management as well but I enjoy
+            bartender
+            class
+            most
+        </div>
+    </div>
+    <hr>
+    <!-- work EXP -->
+    <!-- didnt change the class to make it simple (yet)-->
+    <h3>Work Exp</h3>
+    <div class="education" id="exp">
+        <div class="edu"><b> Front Desk Atendence at D'Prima Hotel
+            </b>
+            <p>Jan 2022-Mar 2022</p>
+        </div>
+        <div class="card-body">
+            Greeting the guest, make the reservation also advance reservation, communicating with other departement
+            to
+            make
+            sure smooth operational and make sure the customer statisfied with the service
+        </div>
+        <div class="edu"><b> Intern at Intercontinental Shenzen
+            </b>
+            <p>Jul 2015 - May 2016</p>
+        </div>
+        <div class="card-body">
+            First i work at galleon my position was a server and after that i was promoted to become a bartender by
+            the
+            galleon manager Mr. Harold Pekel for 6 months and i move to mercado as a server, mostly my main
+            responsibility
+            at mercado are to serve the foreign guests to make sure they are happy with our service
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <hr>
+    <div class="contact-me" id="contact">
+        <h2>Get In Touch</h2>
+        <h3>Here is how to contact me</h3>
+    </div>
+
+
+    <!-- button for footer -->
+
+    <div class="bottom-container">
+        <button class="btn"><a class="footer-link"
+                href="https://www.linkedin.com/in/michael-purwanta-083388b6/">LinkedIn</a></button>
+        <button class="btn"><a class="footer-link" href="https://www.instagram.com/michan0011/">Instagram</a></button>
+        <button class="btn"><a class="footer-link" href="https://github.com/michan00">Github</a></button>
+        <div>
+            <h3>Contact-Me</h3>
+            <form action="mailto: michael_purwanta@yahoo.com" method="post" id="send">
+                <div>
+                    <div>
+                        <label for="first">Name:</label>
+                        <input type="text" id="first" name="firstname">
+                        <div class="error" id="name"> Min 6 Chararter</div>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                        <div class="error" id="mail">Input your Email</div>
+                    </div>
+                    <div>
+                        <label for="message">Your Message:</label>
+                        <textarea name="name" id="message" cols="28" rows="3"></textarea><br>
+                        <div class="error" id="box">Input your message</div>
+                        <button type="submit" class="submit" id="submit" onclick="changecolor()">Submit </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <p class="copyright">© Michael Purwanta. </p>
+    </div>
+
+
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="index.js"></script>
+    </body>
+
+</html>
