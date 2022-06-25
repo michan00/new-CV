@@ -37,26 +37,8 @@ setTimeout(function start() {
 
 }, 500)
 
-
-
-// const email = document.getElementById("email");
-
-// const message = document.getElementById("message");
-
-// const send = document.getElementById("send")
-
-// const name = document.getElementById("first");
-// send.addEventListener("submit", () => {
-//     if (name.value.length <= 6) {
-//         name.style.borderColor = "red"
-//         document.querySelector(".error#name").style.display = "block"
-//     } else {
-//         name.style.borderColor = "black"
-//         document.querySelector(".error#name").style.display = "none"
-//     }
-// })
-
-$("#send").submit(function () {
+$("#send").submit(function (event) {
+    event.preventDefault()
     if ($("#first").val().length <= 6) {
         $("#first").css("border-color", "red")
         $(".error#name").css("display", "block")
